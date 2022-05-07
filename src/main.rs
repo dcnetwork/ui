@@ -1,4 +1,6 @@
 use yew::prelude::*;
+use ui::components::card::*;
+use ui::components::author::*;
 
 fn main() {
     yew::start_app::<App>();
@@ -8,11 +10,13 @@ fn main() {
 pub fn app() -> Html {
     html! {
         <div>
-            <h2 class={"heading"}>{"Welcome To DC Network!"}</h2>
-            <p >{"Connecting To ... 0xffffffffffffffffff"}</p>
+            <h2 class={"heading"}>{"Welcome BACK!"}</h2>
+            <Card/>
             <div align="center" class={"logo-out"}>
                 <img class={"logo"} src="public/dec.png"/>
             </div>
+            <Author/>
         </div>
     }
 }
+
