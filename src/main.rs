@@ -12,6 +12,16 @@ pub fn app() -> Html {
         <div>
             <h2 class={"heading"}>{"Welcome BACK!"}</h2>
             <Card/>
+            <div class="loader-out">
+            <div class="loader">
+                <div class="face">
+                    <div class="circle"></div>
+                </div>
+                <div class="face">
+                    <div class="circle"></div>
+                </div>
+            </div>
+            </div>
             <div align="center" class={"logo-out"}>
                 <img class={"logo"} src="public/dec.png"/>
             </div>

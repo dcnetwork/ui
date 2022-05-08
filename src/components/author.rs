@@ -16,7 +16,7 @@ impl Component for Author{
         html! {
             <div class="author">
                 <div class="author-in">
-                	<img tooltip="Contribute the CODE on GitHub" src="/public/github.dark.min.svg"/><a href="https://github.com/dcnetwork"/>
+                	<img id="gth" src="/public/github.dark.min.svg"/><a href="https://github.com/dcnetwork"/>
                 </div>
             </div>
         }
