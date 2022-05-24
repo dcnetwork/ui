@@ -16,7 +16,13 @@ impl Component for Author{
         html! {
             <div class="author">
                 <div class="author-in">
-                	<img id="gth" src="/public/github.dark.min.svg"/><a href="https://github.com/dcnetwork"/>
+                	<a href="https://github.com/dcnetwork"><img id="gth" src="/public/github.dark.min.svg"/><a href="https://github.com/dcnetwork"/></a>
+                </div>
+                <div class="author-in">
+                    <p>{"Created By thelinuxpoint a.k.a Prakash Choudhary"}</p>
+                </div>
+                <div class="author-in">
+                    <a href="https://dcnetwork.github.io"><img id="wb" src="/public/web.svg"/></a>
                 </div>
             </div>
         }

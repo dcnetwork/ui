@@ -2,7 +2,7 @@ body {
     margin: 20px;
     background: #161923;;
     color: white;
-
+    font-family: Open Sans;
 }
 
 .heading {
@@ -50,7 +50,9 @@ body {
     background: linear-gradient(to right, #ff00ff , cyan);;
     color: #fff;
     width: 280px;
+
 }
+
 .card-in-de{
     margin-top: 10px;
     border-radius: 5px;
@@ -60,7 +62,7 @@ body {
 }
 .animate-sh {
    animation : shimmer 2s infinite;
-   background: linear-gradient(to right, #444 4%, #666 25%, #444 36%);
+   background: linear-gradient(to right, #444 8%, #666 25%, #444 36%);
    background-size: 1000px 100%;
 }
 @keyframes shimmer {
@@ -87,16 +89,28 @@ body {
     bottom: 0;
     left: 0;
     padding: 20px;
-    width: 100vw;
+    width: calc(100vw - 40px);
 }
+
 #gth{
     width: 30px;
+}
+#wb{
+    width: 30px;
+
 }
 .loader-out{
     position: absolute;
     padding-top: 50px;
     left: calc(50vw - 45px);
+
     
+}
+.loader-out p{
+    position: relative;
+    top: 120px;
+    width: 100%;
+
 }
 .loader {
     width: 100px;
