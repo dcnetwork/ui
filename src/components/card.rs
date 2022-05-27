@@ -28,20 +28,22 @@ impl Component for Card {
                 <div class="card-type">
                 	<div class="card-in">
                 		<div class="card-in-d" align="center">{"Public Key"}</div>
-                        <div class="card-in-de comment br animate-sh w80" align="center">{""}</div>
+                        <div class="card-in-button" align="center"><button>{"View"}</button></div>
 
                 	</div>
                 </div>
                 <div class="card-type">
                 	<div class="card-in">
                 		<div class="card-in-d" align="center">{"Private Key"}</div>
-                        <div class="card-in-de comment br animate-sh w80" align="center">{""}</div>                	
+                        <div class="card-in-button" align="center"><button>{"View"}</button></div>
+                        <div class="view-private" hidden=true></div>
                     </div>
                 </div>
                 <div class="card-type">
                 	<div class="card-in">
                 		<div class="card-in-d" align="center">{"Connection Status"}</div>
-                        <div class="card-in-de comment br animate-sh w80" align="center">{""}</div>
+                        <div class="card-in-button" align="center"><button>{"STATUS"}</button></div>
+
                     </div>
                 </div>
             </div>

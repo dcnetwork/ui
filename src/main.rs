@@ -72,7 +72,7 @@ pub fn app() -> Html {
                         <div class="circle"></div>
                     </div>
                 </div>
-                <p>{"Checking ..."}</p>
+                // <p>{"LoaDinG ..."}</p>
             </div>
 
             <div align="center" class={"logo-out"}>
