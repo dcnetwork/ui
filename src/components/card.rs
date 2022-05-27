@@ -1,11 +1,15 @@
 use yew::prelude::*;
+#[derive(PartialEq, Properties)]
+pub struct Props {
+    pub addr_text: String,
+}
 
 pub struct Card;
 
 impl Component for Card {
 
     type Message = ();
-    type Properties = ();
+    type Properties = Props;
 
     fn create(_ctx:&Context<Self>)-> Self{
         Self
@@ -18,7 +22,7 @@ impl Component for Card {
                 <div class="card-type">
                 	<div class="card-in">
                 		<div class="card-in-d" align="center">{"Address"}</div>
-                        <div class="card-in-de comment br animate-sh w80" align="center">{""}</div>
+                        <div class="card-in-de comment br animate-sh w80" align="center">{_ctx.props().addr_text.clone()}</div>
                 	</div>
                 </div>
                 <div class="card-type">
